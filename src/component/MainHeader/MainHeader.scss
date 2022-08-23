@@ -1,0 +1,19 @@
+@use "src/util/Common";
+
+.soundwhere-main-header {
+  @extend .flex-center;
+  
+  padding: 0px 36px;
+  width: 100%;
+  height: 64px;
+  
+  .logo {
+    font: 2.8rem bold Monaco;
+    cursor: pointer;
+  }
+  
+  & > nav {
+    padding: 0 12px;
+    @extend .flex-center;
+  }
+}

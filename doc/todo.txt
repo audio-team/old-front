@@ -1,0 +1,7 @@
+deduplicate dataset
+
+演示批量处理
+(\d+)\/(\d+)\/\1-\2.trans.txt
+([\d-]+) (.+)
+$FLR1/$FLR2/$LLF1.flac
+$LLF2

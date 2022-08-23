@@ -1,0 +1,19 @@
+@use "src/util/Common";
+
+.soundwhere-avatar {
+  @extend .flex-center;
+  justify-content: center;
+  gap: 12px;
+  
+  .avatar {
+    border-radius: 16px;
+    width: 32px;
+    height: 32px;
+    background-color: #f4f4f4;
+    cursor: pointer;
+  }
+  
+  .popover {
+
+  }
+}

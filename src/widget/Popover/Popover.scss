@@ -1,0 +1,13 @@
+@use "src/util/Common";
+
+.soundwhere-popover {
+  position: relative;
+  
+  .content {
+    position: absolute;
+    top: 110%;
+    left: 100%;
+    transform: translateX(-100%);
+    z-index: 100;
+  }
+}

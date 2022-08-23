@@ -1,0 +1,18 @@
+# Structure
+
+src -
+    api # 调用后端 api  
+    asset # 图片字体音效等  
+    component # 包含业务逻辑的组件  
+    config # 配置项  
+    layout # 顶层布局，包含 router-view (根据路由被其他组件替换）
+    util # 通用逻辑和样式  
+    widget # 可复用的小组件  
+
+## Component
+
+组件名 -
+    组件名.scss # 样式文件，scss 是 css 的超集，包含变量之类的功能，不想学也可以直接写 css  
+    index.ts # 导出组件及相关数据结构  
+    组件名.vue # Vue3 SFC, 推荐用 setup 语法
+

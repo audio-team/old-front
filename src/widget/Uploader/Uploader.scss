@@ -1,0 +1,29 @@
+@use "src/util/Common";
+
+.soundwhere-uploader {
+  @extend .flex-center;
+
+  flex-direction: column;
+  gap: 12px;
+  height: 128px;
+  padding: 48px 24px;
+  border-radius: 20px;
+  border: #2c3e50 1px dashed;
+
+  &.highlight {
+    background-color: #62ce95;
+  }
+  span {
+    font-size: 1.8rem;
+  }
+
+  span.trigger {
+    color: #49b17a;
+    cursor: pointer;
+
+    &:hover {
+      color: #257c4e;
+      text-decoration: underline #9febc3;
+    }
+  }
+}

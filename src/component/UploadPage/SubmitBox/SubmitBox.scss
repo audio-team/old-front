@@ -1,0 +1,26 @@
+@use "src/util/Common";
+
+.soundwhere-submit-box {
+  @extend .flex-center;
+  flex-direction: column;
+  gap: 20px;
+  
+  width: 40vw;
+  padding: 40px;
+  background-color: white;
+  border-radius: 4px;
+  
+  .title {
+    @extend .flex-center;
+    gap: 8px;
+    .xicon {
+      cursor: pointer;
+    }
+  }
+
+  .line {
+    @extend .flex-center;
+    padding-block: 12px;
+    width: 100%;
+  }
+}

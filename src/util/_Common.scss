@@ -1,0 +1,22 @@
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selectable-entry {
+  @extend .flex-center;
+  justify-content: start;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 8px;
+  gap: 8px;
+
+  &:hover {
+    background-color: #9febc3;
+  }
+}
+
+.light-shadow {
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 0, rgba(0, 0, 0, 0.06) 0 1px 2px 0;
+}

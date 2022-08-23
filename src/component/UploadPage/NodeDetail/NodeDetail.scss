@@ -1,0 +1,18 @@
+@use "src/util/Common";
+
+.soundwhere-node-detail {
+  display: grid;
+  grid-template-rows: min-content minmax(0, 1fr) min-content;
+  height: 100%;
+
+  .title {
+    @extend .flex-center;
+    justify-content: start;
+
+    h2 {
+      display: inline-block;
+      margin-right: 12px;
+    }
+  }
+
+}

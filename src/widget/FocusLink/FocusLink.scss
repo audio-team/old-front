@@ -1,0 +1,10 @@
+.soundwhere-focus-link {
+  white-space: nowrap;
+  & > a {
+    all: unset;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 12px 12px;
+  }
+
+}

@@ -1,0 +1,18 @@
+@use "src/util/Common";
+
+.soundwhere-menu {
+  z-index: 1;
+  border-radius: 4px;
+  @extend .light-shadow;
+  background-color: white;
+  text-align: center;
+  width: 12rem;
+
+  .item {
+    padding: 8px 12px;
+
+    &:hover {
+      background-color: #9febc3;
+    }
+  }
+}

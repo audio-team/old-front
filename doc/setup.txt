@@ -1,0 +1,11 @@
+# Setup
+
+# 命令行运行
+npm i -g pnpm # 安装 pnpm
+pnpm i -g vite # 安装 vite
+
+# 在项目根目录运行
+pnpm i # 安装依赖
+vite # 启动开发服务器
+
+然后在 localhost:3000 访问应用

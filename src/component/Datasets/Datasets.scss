@@ -1,0 +1,12 @@
+@use "src/util/Common";
+
+.soundwhere-datasets {
+  @extend .flex-center;
+  flex-direction: column;
+  text-align: center;
+
+  > * {
+    flex-grow: 1;
+    padding: 10px;
+  }
+}

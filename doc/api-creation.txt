@@ -1,0 +1,15 @@
+# Api Creation
+
+const api = new AxiosAPI<输入类型, 输出类型>(<调用路径>, <调用方法>, [Api名,用于debug], [传参方式, params 或 data]);
+
+例：
+const loginAPI = new AxiosAPI<LoginForm>('/tokens/access', 'POST', 'Login', 'params');
+export {loginAPI};
+
+地址为 localhost:8000/rest/tokens/access, 使用 post 调用，通过 url 参数传参
+
+使用：
+import {loginAPI} from ....
+
+# 在异步函数内
+const res = await loginAPI.run(<参数>，[秘钥]);

@@ -1,0 +1,27 @@
+@use "src/util/Common";
+
+.soundwhere-easy-input {
+  @extend .flex-center;
+  flex-direction: column;
+  width: 100%;
+  gap: 12px;
+
+  span {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+
+  input {
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+    padding: 12px 20px;
+    font-size: 1.6rem;
+    border-radius: 4px;
+    border: 1px solid #aaaaaa;
+
+    &:focus {
+      border: 1px solid #289977;
+    }
+  }
+}

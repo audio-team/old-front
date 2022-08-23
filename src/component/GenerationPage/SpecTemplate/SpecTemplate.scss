@@ -1,0 +1,10 @@
+@use "src/util/Common";
+
+.soundwhere-spec-template {
+  @extend .light-shadow;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  border-radius: 4px;
+  gap: 8px;
+}

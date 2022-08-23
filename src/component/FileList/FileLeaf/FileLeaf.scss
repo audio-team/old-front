@@ -1,0 +1,6 @@
+@use "src/util/Common";
+
+.soundwhere-file-leaf {
+  @extend .selectable-entry;
+  width: 100%;
+}

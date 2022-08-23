@@ -1,0 +1,16 @@
+@use "src/util/Common";
+
+.soundwhere-main-layout {
+  @extend .flex-center;
+  flex-direction: column;
+
+  min-height: 100vh;
+
+  main {
+    flex-grow: 1;
+    width: 100%;
+    @extend .flex-center;
+    flex-direction: column;
+    height: calc(100vh - 64px);
+  }
+}

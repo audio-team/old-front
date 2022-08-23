@@ -1,0 +1,13 @@
+@use "src/util/Common";
+
+.soundwhere-mini-button {
+  white-space: nowrap;
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+  width: fit-content;
+  padding: 4px 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+  @extend .light-shadow;
+}

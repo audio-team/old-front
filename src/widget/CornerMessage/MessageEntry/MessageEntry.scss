@@ -1,0 +1,12 @@
+@use "src/util/Common";
+
+.soundwhere-message-entry {
+  @extend .flex-center;
+  @extend .light-shadow;
+  border-radius: 4px;
+  
+  background-color: #deffee;
+  color: #62ce95;
+  width: 300px;
+  height: 60px;
+}
